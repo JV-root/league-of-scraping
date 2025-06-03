@@ -1,4 +1,6 @@
-game_uid, game_time
-67862_game_1,31:12
-67862_game_1,31:12
-67862_game_1,31:12
+game_uid, game_time, game_date, week
+67862_game_1,31:12,2025-05-18,WEEK7
+67862_game_1,31:12,2025-05-18,WEEK7
+67862_game_1,31:12,2025-05-18,WEEK7
+67862_game_1,31:12,2025-05-18,WEEK7
+67862_game_1,31:12,2025-05-18,WEEK7
