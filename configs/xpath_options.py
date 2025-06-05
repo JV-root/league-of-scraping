@@ -8,9 +8,9 @@ xpath_options_dict = {
 ])),
 
     'team_gold_blue_side': list(([
-        '/html/body/div/main/div[2]/div/div[3]/div/div/div/div[1]/div/div/div[2]/div[1]/div[2]/div[5]/span/'
+        "//span[contains(@class, 'score-box') and contains(@class, 'blue_line') and .//img[contains(@alt, 'Gold')]]"
     ])),
     'team_gold_red_side': list(([
-        '/html/body/div/main/div[2]/div/div[3]/div/div/div/div[1]/div/div/div[2]/div[1]/div[2]/div[5]/span/'
+        "//span[contains(@class, 'score-box') and contains(@class, 'red_line') and .//img[contains(@alt, 'Gold')]]"
     ]))
 }

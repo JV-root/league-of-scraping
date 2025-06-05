@@ -364,3 +364,54 @@ Stacktrace:
 	RtlGetAppContainerNamedObjectPath [0x0x77b482ae+286]
 	RtlGetAppContainerNamedObjectPath [0x0x77b4827e+238]
 
+2025-06-04 19:58:35,546 [INFO] ====== WebDriver manager ======
+2025-06-04 19:58:36,562 [INFO] Get LATEST chromedriver version for google-chrome
+2025-06-04 19:58:36,630 [INFO] Get LATEST chromedriver version for google-chrome
+2025-06-04 19:58:36,665 [INFO] There is no [win64] chromedriver "137.0.7151.68" for browser google-chrome "137.0.7151" in cache
+2025-06-04 19:58:36,665 [INFO] Get LATEST chromedriver version for google-chrome
+2025-06-04 19:58:36,749 [INFO] WebDriver version 137.0.7151.68 selected
+2025-06-04 19:58:36,753 [INFO] Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/137.0.7151.68/win32/chromedriver-win32.zip
+2025-06-04 19:58:36,753 [INFO] About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/137.0.7151.68/win32/chromedriver-win32.zip
+2025-06-04 19:58:36,907 [INFO] Driver downloading response is 200
+2025-06-04 19:58:37,296 [INFO] Get LATEST chromedriver version for google-chrome
+2025-06-04 19:58:37,431 [INFO] Driver has been saved in cache [C:\Users\joaov\.wdm\drivers\chromedriver\win64\137.0.7151.68]
+2025-06-04 19:58:50,391 [INFO] [DEBUG - ÚLTIMA LINHA CSV] 67862_game_1,31:12,2025-05-18,WEEK7
+2025-06-04 20:26:50,231 [INFO] ====== WebDriver manager ======
+2025-06-04 20:26:51,274 [INFO] Get LATEST chromedriver version for google-chrome
+2025-06-04 20:26:51,359 [INFO] Get LATEST chromedriver version for google-chrome
+2025-06-04 20:26:51,421 [INFO] Driver [C:\Users\joaov\.wdm\drivers\chromedriver\win64\137.0.7151.68\chromedriver-win32/chromedriver.exe] found in cache
+2025-06-04 20:27:06,187 [ERROR] [gold_red_side] Erro ao buscar o ouro do lado vermelho: Message: invalid selector: Unable to locate an element with the xpath expression /html/body/div/main/div[2]/div/div[3]/div/div/div/div[1]/div/div/div[2]/div[1]/div[2]/div[5]/span/ because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string '/html/body/div/main/div[2]/div/div[3]/div/div/div/div[1]/div/div/div[2]/div[1]/div[2]/div[5]/span/' is not a valid XPath expression.
+  (Session info: chrome=137.0.7151.68); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalid-selector-exception
+Stacktrace:
+	GetHandleVerifier [0x0x533763+63299]
+	GetHandleVerifier [0x0x5337a4+63364]
+	(No symbol) [0x0x361113]
+	(No symbol) [0x0x367920]
+	(No symbol) [0x0x369c4a]
+	(No symbol) [0x0x369cc7]
+	(No symbol) [0x0x3a9114]
+	(No symbol) [0x0x3a9c1b]
+	(No symbol) [0x0x3f2212]
+	(No symbol) [0x0x3ce5c4]
+	(No symbol) [0x0x3efa4a]
+	(No symbol) [0x0x3ce376]
+	(No symbol) [0x0x39d6e0]
+	(No symbol) [0x0x39e544]
+	GetHandleVerifier [0x0x78e033+2531347]
+	GetHandleVerifier [0x0x789332+2511634]
+	GetHandleVerifier [0x0x559eda+220858]
+	GetHandleVerifier [0x0x54a528+156936]
+	GetHandleVerifier [0x0x550c5d+183357]
+	GetHandleVerifier [0x0x53b6c8+95912]
+	GetHandleVerifier [0x0x53b870+96336]
+	GetHandleVerifier [0x0x52664a+9770]
+	BaseThreadInitThunk [0x0x758a5d49+25]
+	RtlInitializeExceptionChain [0x0x7782d03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7782cfc1+561]
+
+2025-06-04 22:47:08,038 [INFO] ====== WebDriver manager ======
+2025-06-04 22:47:09,334 [INFO] Get LATEST chromedriver version for google-chrome
+2025-06-04 22:47:09,603 [INFO] Get LATEST chromedriver version for google-chrome
+2025-06-04 22:47:09,866 [INFO] Driver [C:\Users\joaov\.wdm\drivers\chromedriver\win64\137.0.7151.68\chromedriver-win32/chromedriver.exe] found in cache
+2025-06-04 22:47:25,309 [INFO] [DEBUG - ÚLTIMA LINHA CSV] 67862_game_1,31:12,2025-05-18,WEEK7

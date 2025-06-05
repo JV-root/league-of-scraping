@@ -5,13 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="44080545-68b6-47d9-8bbd-16289d6140f6" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/csv-editor.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/league-of-scraping.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/league-of-scraping.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/configs/xpath_options.py" beforeDir="false" afterPath="$PROJECT_DIR$/configs/xpath_options.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data/raw/game_data.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/raw/game_data.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/logsscraper.log" beforeDir="false" afterPath="$PROJECT_DIR$/src/logsscraper.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
