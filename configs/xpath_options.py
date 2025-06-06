@@ -12,5 +12,13 @@ xpath_options_dict = {
     ])),
     'team_gold_red_side': list(([
         "//span[contains(@class, 'score-box') and contains(@class, 'red_line') and .//img[contains(@alt, 'Gold')]]"
-    ]))
+    ])),
+    'team_blue_kills': list(([
+        "//span[contains(@class, 'score-box') and contains(@class, 'blue_line') and .//img[contains(@alt, 'Kills')]]"
+    ])),
+    'team_red_kills': list(([
+    "//span[contains(@class, 'score-box') and contains(@class, 'red_line') and .//img[contains(@alt, 'Kills')]]"
+    ])),
+
+
 }

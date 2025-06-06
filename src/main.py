@@ -123,8 +123,8 @@ def get_gold_red_side():
             gold_red_side = element.text.strip()
 
             if gold_red_side: # se o texto não estiver vazio
-                gold_red_side = gold_red_side.replace(',', '')
-                print(f"[DEBUG - GOLD RED SIDE] {gold_red_side}")
+                gold_red_side = gold_red_side.replace(',', '') # remove as vírgulas do texto
+
                 return gold_red_side
         except NoSuchElementException:
             logging.error(f"[gold_red_side] XPath não encontrado: {xpath}")
@@ -133,16 +133,80 @@ def get_gold_red_side():
             logging.error(f"[gold_red_side] Erro ao buscar o ouro do lado vermelho: {e}")
             raise
 
+def get_gold_blue_side():
+    """Função para obter o ouro do lado azul """
+    xpath_options = xpath_options_dict.get("team_gold_blue_side", []) # obtém as opções de XPath para o ouro do lado azul
+    for xpath in xpath_options: # percorre as opções de XPath
+        try:
+            wait = WebDriverWait(driver, 5) # espera até que o elemento esteja presente na página
+            element = wait.until(EC.presence_of_element_located((By.XPATH, xpath))) # tenta encontrar o elemento pelo XPath
+            gold_blue_side = element.text.strip() # obtém o texto do elemento e remove espaços em branco
+
+            if gold_blue_side: # se o texto não estiver vazio
+                gold_blue_side = gold_blue_side.replace(',', '')
+                return gold_blue_side # retorna o ouro do lado azul
+        except NoSuchElementException:
+            logging.error(f"[gold_blue_side] XPath não encontrado: {xpath}")
+            raise
+        except Exception as e:
+            logging.error(f"[gold_blue_side] Erro ao buscar o ouro do lado azul: {e}")
+            raise
+
+
+def get_red_side_kills():
+    """"Função para obter o número de abates do lado vermelho."""
+    xpath_options = xpath_options_dict.get("team_red_kills",[])
+    for xpath in xpath_options: # percorre as opções de XPath
+        try:
+            wait = WebDriverWait(driver,5)
+            element = wait.until(EC.presence_of_element_located((By. XPATH, xpath))) # espera até que o elemento esteja presente na página
+            red_side_kills = element.text.strip()
+
+            if red_side_kills:
+                red_side_kills = red_side_kills.replace(',', '')
+
+                return red_side_kills # retorna o número de abates do lado vermelho
+        except NoSuchElementException:
+            logging.error(f"[red_side_kills] XPath não encontrado: {xpath}")
+            raise
+        except Exception as e:
+            logging.error(f"[red_side_kills] Erro ao buscar o número de abates do lado vermelho: {e}")
+            raise
+
+
+def get_blue_side_kills():
+    """Função para obter o número de abates do lado azul."""
+    xpath_options = xpath_options_dict.get("team_blue_kills", []) # obtém as opções de XPath para o número de abates do lado azul
+    for xpath in xpath_options:
+        try:
+            wait = WebDriverWait(driver, 5)
+            element = wait.until(EC.presence_of_element_located((By.XPATH, xpath))) # espera até que o elemento esteja presente na página
+            blue_side_kills = element.text.strip() # obtém o texto do elemento e remove espaços em branco
+            if blue_side_kills:
+                blue_side_kills = blue_side_kills.replace(',', '')
+
+                return blue_side_kills # retorna o número de abates do lado azul
+        except NoSuchElementException:
+            logging.error(f"[blue_side_kills] XPath não encontrado: {xpath}")
+            raise
+        except Exception as e:
+            logging.error(f"[blue_side_kills] Erro ao buscar o número de abates do lado azul: {e}")
+            raise
+
+
 def scrape_game_data():
     """Função principal para coletar os dados do jogo."""
 
     game_time = get_game_time()
     game_date, game_week = get_game_date()
     gold_red_side = get_gold_red_side()
+    gold_blue_side = get_gold_blue_side()
+    red_side_kills = get_red_side_kills()
+    blue_side_kills = get_blue_side_kills()
 
     # TODO: refatorar para adicionar os headers caso não existam
-    data = pd.DataFrame(columns=['game_uid', 'game_time','game_date','game_week'], # cria um DataFrame com as colunas especificadas
-                        data=[[game_uid, game_time, game_date, game_week]]) # adiciona os dados coletados ao DataFrame
+    data = pd.DataFrame(columns=['game_uid', 'game_time','game_date','game_week', 'gold_red_side', 'gold_blue_side', 'red_side_kills', 'blue_side_kills'], # cria um DataFrame com as colunas especificadas
+                        data=[[game_uid, game_time, game_date, game_week, gold_red_side, gold_blue_side, red_side_kills, blue_side_kills]]) # adiciona os dados coletados ao DataFrame
 
     data.to_csv(CSV_PATH, mode='a', header=not os.path.exists(CSV_PATH), index=False, encoding='utf-8') # escreve os dados no CSV
 

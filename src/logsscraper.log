@@ -415,3 +415,154 @@ Stacktrace:
 2025-06-04 22:47:09,603 [INFO] Get LATEST chromedriver version for google-chrome
 2025-06-04 22:47:09,866 [INFO] Driver [C:\Users\joaov\.wdm\drivers\chromedriver\win64\137.0.7151.68\chromedriver-win32/chromedriver.exe] found in cache
 2025-06-04 22:47:25,309 [INFO] [DEBUG - ÚLTIMA LINHA CSV] 67862_game_1,31:12,2025-05-18,WEEK7
+2025-06-05 20:19:52,754 [INFO] ====== WebDriver manager ======
+2025-06-05 20:19:54,827 [INFO] Get LATEST chromedriver version for google-chrome
+2025-06-05 20:19:54,957 [INFO] Get LATEST chromedriver version for google-chrome
+2025-06-05 20:19:55,053 [INFO] Get LATEST chromedriver version for google-chrome
+2025-06-05 20:19:55,350 [INFO] WebDriver version 137.0.7151.68 selected
+2025-06-05 20:19:55,357 [INFO] Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/137.0.7151.68/win32/chromedriver-win32.zip
+2025-06-05 20:19:55,357 [INFO] About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/137.0.7151.68/win32/chromedriver-win32.zip
+2025-06-05 20:19:55,501 [INFO] Driver downloading response is 200
+2025-06-05 20:19:58,420 [INFO] Get LATEST chromedriver version for google-chrome
+2025-06-05 20:19:58,672 [INFO] Driver has been saved in cache [C:\Users\jp\.wdm\drivers\chromedriver\win64\137.0.7151.68]
+2025-06-05 20:20:13,783 [INFO] [DEBUG - ÚLTIMA LINHA CSV] 67862_game_1,31:12,2025-05-18,WEEK7
+2025-06-05 20:22:36,876 [INFO] ====== WebDriver manager ======
+2025-06-05 20:22:38,620 [INFO] Get LATEST chromedriver version for google-chrome
+2025-06-05 20:22:40,528 [INFO] Get LATEST chromedriver version for google-chrome
+2025-06-05 20:22:40,820 [INFO] Driver [C:\Users\jp\.wdm\drivers\chromedriver\win64\137.0.7151.68\chromedriver-win32/chromedriver.exe] found in cache
+2025-06-05 20:22:59,935 [INFO] [DEBUG - ÚLTIMA LINHA CSV] 67862_game_1,31:12,2025-05-18,WEEK7
+2025-06-05 20:23:36,703 [INFO] ====== WebDriver manager ======
+2025-06-05 20:23:38,488 [INFO] Get LATEST chromedriver version for google-chrome
+2025-06-05 20:23:38,600 [INFO] Get LATEST chromedriver version for google-chrome
+2025-06-05 20:23:38,703 [INFO] Driver [C:\Users\jp\.wdm\drivers\chromedriver\win64\137.0.7151.68\chromedriver-win32/chromedriver.exe] found in cache
+2025-06-05 20:23:55,237 [INFO] [DEBUG - ÚLTIMA LINHA CSV] 67862_game_1,31:12,2025-05-18,WEEK7,63.3k
+2025-06-05 20:29:29,325 [INFO] ====== WebDriver manager ======
+2025-06-05 20:29:31,101 [INFO] Get LATEST chromedriver version for google-chrome
+2025-06-05 20:29:31,220 [INFO] Get LATEST chromedriver version for google-chrome
+2025-06-05 20:29:31,311 [INFO] Driver [C:\Users\jp\.wdm\drivers\chromedriver\win64\137.0.7151.68\chromedriver-win32/chromedriver.exe] found in cache
+2025-06-05 20:29:45,001 [INFO] [DEBUG - ÚLTIMA LINHA CSV] 67862_game_1,31:12,2025-05-18,WEEK7,63.3k
+2025-06-05 20:36:50,978 [INFO] ====== WebDriver manager ======
+2025-06-05 20:36:52,764 [INFO] Get LATEST chromedriver version for google-chrome
+2025-06-05 20:36:52,854 [INFO] Get LATEST chromedriver version for google-chrome
+2025-06-05 20:36:52,949 [INFO] Driver [C:\Users\jp\.wdm\drivers\chromedriver\win64\137.0.7151.68\chromedriver-win32/chromedriver.exe] found in cache
+2025-06-05 20:37:06,633 [INFO] [DEBUG - ÚLTIMA LINHA CSV] 67862_game_1,31:12,2025-05-18,WEEK7,63.3k
+2025-06-05 20:42:45,481 [INFO] ====== WebDriver manager ======
+2025-06-05 20:42:47,219 [INFO] Get LATEST chromedriver version for google-chrome
+2025-06-05 20:42:47,321 [INFO] Get LATEST chromedriver version for google-chrome
+2025-06-05 20:42:47,411 [INFO] Driver [C:\Users\jp\.wdm\drivers\chromedriver\win64\137.0.7151.68\chromedriver-win32/chromedriver.exe] found in cache
+2025-06-05 20:43:02,366 [INFO] [DEBUG - ÚLTIMA LINHA CSV] 67862_game_1,31:12,2025-05-18,WEEK7,63.3k
+2025-06-05 21:07:01,092 [INFO] ====== WebDriver manager ======
+2025-06-05 21:07:02,871 [INFO] Get LATEST chromedriver version for google-chrome
+2025-06-05 21:07:02,970 [INFO] Get LATEST chromedriver version for google-chrome
+2025-06-05 21:07:03,055 [INFO] Driver [C:\Users\jp\.wdm\drivers\chromedriver\win64\137.0.7151.68\chromedriver-win32/chromedriver.exe] found in cache
+2025-06-05 21:07:16,020 [INFO] [DEBUG - ÚLTIMA LINHA CSV] 67862_game_1,31:12,2025-05-18,WEEK7,63.3k
+2025-06-05 21:11:15,370 [INFO] ====== WebDriver manager ======
+2025-06-05 21:11:17,112 [INFO] Get LATEST chromedriver version for google-chrome
+2025-06-05 21:11:17,210 [INFO] Get LATEST chromedriver version for google-chrome
+2025-06-05 21:11:17,297 [INFO] Driver [C:\Users\jp\.wdm\drivers\chromedriver\win64\137.0.7151.68\chromedriver-win32/chromedriver.exe] found in cache
+2025-06-05 21:11:30,538 [INFO] [DEBUG - ÚLTIMA LINHA CSV] 67862_game_1,31:12,2025-05-18,WEEK7,63.3k
+2025-06-05 21:12:25,451 [INFO] ====== WebDriver manager ======
+2025-06-05 21:12:27,224 [INFO] Get LATEST chromedriver version for google-chrome
+2025-06-05 21:12:27,323 [INFO] Get LATEST chromedriver version for google-chrome
+2025-06-05 21:12:27,408 [INFO] Driver [C:\Users\jp\.wdm\drivers\chromedriver\win64\137.0.7151.68\chromedriver-win32/chromedriver.exe] found in cache
+2025-06-05 21:12:41,086 [INFO] [DEBUG - ÚLTIMA LINHA CSV] 67862_game_1,31:12,2025-05-18,WEEK7,63.3k
+2025-06-05 21:16:48,628 [INFO] ====== WebDriver manager ======
+2025-06-05 21:16:50,369 [INFO] Get LATEST chromedriver version for google-chrome
+2025-06-05 21:16:50,457 [INFO] Get LATEST chromedriver version for google-chrome
+2025-06-05 21:16:50,538 [INFO] Driver [C:\Users\jp\.wdm\drivers\chromedriver\win64\137.0.7151.68\chromedriver-win32/chromedriver.exe] found in cache
+2025-06-05 21:17:04,200 [INFO] [DEBUG - ÚLTIMA LINHA CSV] 67862_game_1,31:12,2025-05-18,WEEK7,63.3k
+2025-06-05 21:19:24,210 [INFO] ====== WebDriver manager ======
+2025-06-05 21:19:25,940 [INFO] Get LATEST chromedriver version for google-chrome
+2025-06-05 21:19:26,035 [INFO] Get LATEST chromedriver version for google-chrome
+2025-06-05 21:19:26,111 [INFO] Driver [C:\Users\jp\.wdm\drivers\chromedriver\win64\137.0.7151.68\chromedriver-win32/chromedriver.exe] found in cache
+2025-06-05 21:19:40,070 [INFO] [DEBUG - ÚLTIMA LINHA CSV] 67862_game_1,31:12,2025-05-18,WEEK7,63.3k
+2025-06-05 21:20:52,141 [INFO] ====== WebDriver manager ======
+2025-06-05 21:20:54,030 [INFO] Get LATEST chromedriver version for google-chrome
+2025-06-05 21:20:54,144 [INFO] Get LATEST chromedriver version for google-chrome
+2025-06-05 21:20:54,220 [INFO] Driver [C:\Users\jp\.wdm\drivers\chromedriver\win64\137.0.7151.68\chromedriver-win32/chromedriver.exe] found in cache
+2025-06-05 21:21:08,312 [INFO] [DEBUG - ÚLTIMA LINHA CSV] 67862_game_1,31:12,2025-05-18,WEEK7,63.3k
+2025-06-05 21:23:50,709 [INFO] ====== WebDriver manager ======
+2025-06-05 21:23:52,429 [INFO] Get LATEST chromedriver version for google-chrome
+2025-06-05 21:23:52,519 [INFO] Get LATEST chromedriver version for google-chrome
+2025-06-05 21:23:52,621 [INFO] Driver [C:\Users\jp\.wdm\drivers\chromedriver\win64\137.0.7151.68\chromedriver-win32/chromedriver.exe] found in cache
+2025-06-05 21:24:05,473 [INFO] [DEBUG - ÚLTIMA LINHA CSV] 67862_game_1,31:12,2025-05-18,WEEK7,63.3k,52.8k
+2025-06-05 21:41:09,589 [INFO] ====== WebDriver manager ======
+2025-06-05 21:41:11,351 [INFO] Get LATEST chromedriver version for google-chrome
+2025-06-05 21:41:11,483 [INFO] Get LATEST chromedriver version for google-chrome
+2025-06-05 21:41:11,568 [INFO] Driver [C:\Users\jp\.wdm\drivers\chromedriver\win64\137.0.7151.68\chromedriver-win32/chromedriver.exe] found in cache
+2025-06-05 21:41:26,917 [INFO] [DEBUG - ÚLTIMA LINHA CSV] 67862_game_1,31:12,2025-05-18,WEEK7,63.3k,52.8k
+2025-06-05 21:42:37,099 [INFO] ====== WebDriver manager ======
+2025-06-05 21:42:38,941 [INFO] Get LATEST chromedriver version for google-chrome
+2025-06-05 21:42:39,030 [INFO] Get LATEST chromedriver version for google-chrome
+2025-06-05 21:42:39,114 [INFO] Driver [C:\Users\jp\.wdm\drivers\chromedriver\win64\137.0.7151.68\chromedriver-win32/chromedriver.exe] found in cache
+2025-06-05 21:42:52,500 [ERROR] [red_side_kills] Erro ao buscar o número de abates do lado vermelho: 'WebDriverWait' object has no attribute 'untill'
+2025-06-05 23:24:31,273 [INFO] ====== WebDriver manager ======
+2025-06-05 23:24:33,143 [INFO] Get LATEST chromedriver version for google-chrome
+2025-06-05 23:24:33,570 [INFO] Get LATEST chromedriver version for google-chrome
+2025-06-05 23:24:33,654 [INFO] Driver [C:\Users\jp\.wdm\drivers\chromedriver\win64\137.0.7151.68\chromedriver-win32/chromedriver.exe] found in cache
+2025-06-05 23:24:55,976 [ERROR] [red_side_kills] Erro ao buscar o número de abates do lado vermelho: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x9f3763+63299]
+	GetHandleVerifier [0x0x9f37a4+63364]
+	(No symbol) [0x0x821113]
+	(No symbol) [0x0x86987e]
+	(No symbol) [0x0x869c1b]
+	(No symbol) [0x0x8b2212]
+	(No symbol) [0x0x88e5c4]
+	(No symbol) [0x0x8afa4a]
+	(No symbol) [0x0x88e376]
+	(No symbol) [0x0x85d6e0]
+	(No symbol) [0x0x85e544]
+	GetHandleVerifier [0x0xc4e033+2531347]
+	GetHandleVerifier [0x0xc49332+2511634]
+	GetHandleVerifier [0x0xa19eda+220858]
+	GetHandleVerifier [0x0xa0a528+156936]
+	GetHandleVerifier [0x0xa10c5d+183357]
+	GetHandleVerifier [0x0x9fb6c8+95912]
+	GetHandleVerifier [0x0x9fb870+96336]
+	GetHandleVerifier [0x0x9e664a+9770]
+	BaseThreadInitThunk [0x0x7766fcc9+25]
+	RtlGetAppContainerNamedObjectPath [0x0x77b482ae+286]
+	RtlGetAppContainerNamedObjectPath [0x0x77b4827e+238]
+
+2025-06-05 23:28:43,626 [INFO] ====== WebDriver manager ======
+2025-06-05 23:28:48,115 [INFO] Get LATEST chromedriver version for google-chrome
+2025-06-05 23:28:48,200 [INFO] Get LATEST chromedriver version for google-chrome
+2025-06-05 23:28:48,289 [INFO] Driver [C:\Users\jp\.wdm\drivers\chromedriver\win64\137.0.7151.68\chromedriver-win32/chromedriver.exe] found in cache
+2025-06-05 23:29:05,775 [INFO] [DEBUG - ÚLTIMA LINHA CSV] 67862_game_1,31:12,2025-05-18,WEEK7,63.3k,52.8k
+2025-06-05 23:30:39,843 [INFO] ====== WebDriver manager ======
+2025-06-05 23:30:41,730 [INFO] Get LATEST chromedriver version for google-chrome
+2025-06-05 23:30:41,822 [INFO] Get LATEST chromedriver version for google-chrome
+2025-06-05 23:30:41,905 [INFO] Driver [C:\Users\jp\.wdm\drivers\chromedriver\win64\137.0.7151.68\chromedriver-win32/chromedriver.exe] found in cache
+2025-06-05 23:30:57,520 [INFO] [DEBUG - ÚLTIMA LINHA CSV] 67862_game_1,31:12,2025-05-18,WEEK7,63.3k,52.8k,18
+2025-06-06 11:14:20,326 [INFO] ====== WebDriver manager ======
+2025-06-06 11:14:23,290 [INFO] Get LATEST chromedriver version for google-chrome
+2025-06-06 11:14:23,432 [INFO] Get LATEST chromedriver version for google-chrome
+2025-06-06 11:14:23,515 [INFO] Get LATEST chromedriver version for google-chrome
+2025-06-06 11:14:23,799 [INFO] WebDriver version 137.0.7151.68 selected
+2025-06-06 11:14:23,804 [INFO] Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/137.0.7151.68/win32/chromedriver-win32.zip
+2025-06-06 11:14:23,804 [INFO] About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/137.0.7151.68/win32/chromedriver-win32.zip
+2025-06-06 11:14:23,960 [INFO] Driver downloading response is 200
+2025-06-06 11:14:25,875 [INFO] Get LATEST chromedriver version for google-chrome
+2025-06-06 11:14:26,115 [INFO] Driver has been saved in cache [C:\Users\jp\.wdm\drivers\chromedriver\win64\137.0.7151.68]
+2025-06-06 11:14:42,311 [INFO] [DEBUG - ÚLTIMA LINHA CSV] 67862_game_1,31:12,2025-05-18,WEEK7,63.3k,52.8k,18
+2025-06-06 11:15:22,604 [INFO] ====== WebDriver manager ======
+2025-06-06 11:15:24,802 [INFO] Get LATEST chromedriver version for google-chrome
+2025-06-06 11:15:24,888 [INFO] Get LATEST chromedriver version for google-chrome
+2025-06-06 11:15:24,972 [INFO] Driver [C:\Users\jp\.wdm\drivers\chromedriver\win64\137.0.7151.68\chromedriver-win32/chromedriver.exe] found in cache
+2025-06-06 11:15:39,980 [ERROR] [blue_side_kills] Erro ao buscar o número de abates do lado azul: type object 'By' has no attribute 'path'
+2025-06-06 11:15:59,112 [INFO] ====== WebDriver manager ======
+2025-06-06 11:16:01,260 [INFO] Get LATEST chromedriver version for google-chrome
+2025-06-06 11:16:01,349 [INFO] Get LATEST chromedriver version for google-chrome
+2025-06-06 11:16:01,427 [INFO] Driver [C:\Users\jp\.wdm\drivers\chromedriver\win64\137.0.7151.68\chromedriver-win32/chromedriver.exe] found in cache
+2025-06-06 11:16:15,580 [ERROR] [blue_side_kills] Erro ao buscar o número de abates do lado azul: type object 'By' has no attribute 'xpath'
+2025-06-06 11:16:40,931 [INFO] ====== WebDriver manager ======
+2025-06-06 11:16:42,817 [INFO] Get LATEST chromedriver version for google-chrome
+2025-06-06 11:16:42,907 [INFO] Get LATEST chromedriver version for google-chrome
+2025-06-06 11:16:42,990 [INFO] Driver [C:\Users\jp\.wdm\drivers\chromedriver\win64\137.0.7151.68\chromedriver-win32/chromedriver.exe] found in cache
+2025-06-06 11:16:56,629 [INFO] [DEBUG - ÚLTIMA LINHA CSV] 67862_game_1,31:12,2025-05-18,WEEK7,63.3k,52.8k,18
+2025-06-06 11:17:49,543 [INFO] ====== WebDriver manager ======
+2025-06-06 11:17:51,369 [INFO] Get LATEST chromedriver version for google-chrome
+2025-06-06 11:17:51,465 [INFO] Get LATEST chromedriver version for google-chrome
+2025-06-06 11:17:51,555 [INFO] Driver [C:\Users\jp\.wdm\drivers\chromedriver\win64\137.0.7151.68\chromedriver-win32/chromedriver.exe] found in cache
+2025-06-06 11:18:05,917 [INFO] [DEBUG - ÚLTIMA LINHA CSV] 67862_game_1,31:12,2025-05-18,WEEK7,63.3k,52.8k,18,7
