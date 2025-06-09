@@ -69,152 +69,83 @@ game_number = game_number.lower().replace(" ", "_")
 game_uid = f"{match_id}_{game_number}"
 game.click()
 
-def get_game_time ():
-    """Função para obter o tempo do jogo."""
+def get_element_text(field_name, driver, xpath_dict):
 
-    xpath_options = xpath_options_dict.get("game_time", []) #xpath_options_dict é um dicionário que contém as opções de XPath para localizar o tempo do jogo
+    xpath_options = xpath_dict.get(field_name, [])
 
-    for xpath in xpath_options: # percorre as opções de XPath
+    for xpath in xpath_options:
         try:
             element = driver.find_element(By.XPATH, xpath)
-            game_time = element.text.strip()
-            if game_time:
-                return game_time
+            value = element.text.strip()
+            if value:
+                logging.info(f"[{field_name}] Valor encontrado: {value}")
+                return value
         except NoSuchElementException:
-            logging.error(f"[game_time] XPath não encontrado: {xpath}")
-            raise
+            logging.warning(f"[{field_name}] XPath não encontrado: {xpath}")
         except Exception as e:
-            logging.error(f"[game_time] Erro ao buscar o tempo do jogo: {e}")
+            logging.error(f"[{field_name}] Erro ao buscar o valor: {e}")
             raise
 
 
 #função para coletar a data do jogo
-def get_game_date():
-    """Função para obter a data do jogo"""
+def get_game_date(driver, xpath_options_dict):
+    """
+    Função que obtém a data e a semana do jogo,
+    reutilizando a função genérica de extração.
+    """
+    try:
+        raw_text = get_element_text("game_date", driver, xpath_options_dict)
+        # Exemplo de retorno: "2025-05-18 (WEEK7)"
+        game_date, game_week = raw_text.split(' ', 1)
+        game_week = game_week.strip("()")
+        return game_date, game_week
 
-    xpath_opitons = xpath_options_dict.get("game_date", []) # obtém as opções de XPath para a data do jogo
-    for xpath in xpath_opitons: # percorre as opções de XPath
-        try:
-            element = driver.find_element(By.XPATH, xpath) # tenta encontrar o elemento pelo XPath
-            game_date = element.text.strip() # obtém o texto do elemento e remove espaços em branco
-            if game_date: # se o texto não estiver vazio
-                game_date = game_date.split(' ', 1)
-                game_week = game_date[1]
-                game_week = game_week.strip('()')
-                game_date = game_date[0]
-
-                return game_date, game_week # retorna a data do jogo
-        except NoSuchElementException:
-            logging.error(f"[game_date] XPath não encontrado: {xpath}")
-            raise
-        except Exception as e:
-            logging.error(f"[game_date] Erro ao buscar a data do jogo: {e}")
-            raise
-# Obtém a data do jogo
-
-def get_gold_red_side():
-    """Função para obter o ouro do lado vermelho."""
-
-    xpath_options= xpath_options_dict.get("team_gold_red_side", [])
-    for xpath in xpath_options:
-        try:
-            wait = WebDriverWait(driver, 5)
-            element = wait.until(EC.presence_of_element_located((By.XPATH, xpath))) # espera até que o elemento esteja presente na página
-            gold_red_side = element.text.strip()
-
-            if gold_red_side: # se o texto não estiver vazio
-                gold_red_side = gold_red_side.replace(',', '') # remove as vírgulas do texto
-
-                return gold_red_side
-        except NoSuchElementException:
-            logging.error(f"[gold_red_side] XPath não encontrado: {xpath}")
-            raise
-        except Exception as e:
-            logging.error(f"[gold_red_side] Erro ao buscar o ouro do lado vermelho: {e}")
-            raise
-
-def get_gold_blue_side():
-    """Função para obter o ouro do lado azul """
-    xpath_options = xpath_options_dict.get("team_gold_blue_side", []) # obtém as opções de XPath para o ouro do lado azul
-    for xpath in xpath_options: # percorre as opções de XPath
-        try:
-            wait = WebDriverWait(driver, 5) # espera até que o elemento esteja presente na página
-            element = wait.until(EC.presence_of_element_located((By.XPATH, xpath))) # tenta encontrar o elemento pelo XPath
-            gold_blue_side = element.text.strip() # obtém o texto do elemento e remove espaços em branco
-
-            if gold_blue_side: # se o texto não estiver vazio
-                gold_blue_side = gold_blue_side.replace(',', '')
-                return gold_blue_side # retorna o ouro do lado azul
-        except NoSuchElementException:
-            logging.error(f"[gold_blue_side] XPath não encontrado: {xpath}")
-            raise
-        except Exception as e:
-            logging.error(f"[gold_blue_side] Erro ao buscar o ouro do lado azul: {e}")
-            raise
-
-
-def get_red_side_kills():
-    """"Função para obter o número de abates do lado vermelho."""
-    xpath_options = xpath_options_dict.get("team_red_kills",[])
-    for xpath in xpath_options: # percorre as opções de XPath
-        try:
-            wait = WebDriverWait(driver,5)
-            element = wait.until(EC.presence_of_element_located((By. XPATH, xpath))) # espera até que o elemento esteja presente na página
-            red_side_kills = element.text.strip()
-
-            if red_side_kills:
-                red_side_kills = red_side_kills.replace(',', '')
-
-                return red_side_kills # retorna o número de abates do lado vermelho
-        except NoSuchElementException:
-            logging.error(f"[red_side_kills] XPath não encontrado: {xpath}")
-            raise
-        except Exception as e:
-            logging.error(f"[red_side_kills] Erro ao buscar o número de abates do lado vermelho: {e}")
-            raise
-
-
-def get_blue_side_kills():
-    """Função para obter o número de abates do lado azul."""
-    xpath_options = xpath_options_dict.get("team_blue_kills", []) # obtém as opções de XPath para o número de abates do lado azul
-    for xpath in xpath_options:
-        try:
-            wait = WebDriverWait(driver, 5)
-            element = wait.until(EC.presence_of_element_located((By.XPATH, xpath))) # espera até que o elemento esteja presente na página
-            blue_side_kills = element.text.strip() # obtém o texto do elemento e remove espaços em branco
-            if blue_side_kills:
-                blue_side_kills = blue_side_kills.replace(',', '')
-
-                return blue_side_kills # retorna o número de abates do lado azul
-        except NoSuchElementException:
-            logging.error(f"[blue_side_kills] XPath não encontrado: {xpath}")
-            raise
-        except Exception as e:
-            logging.error(f"[blue_side_kills] Erro ao buscar o número de abates do lado azul: {e}")
-            raise
+    except ValueError as e:
+        logging.error(f"[game_date] Erro ao dividir a data e semana: {e}")
+        raise
+    except Exception as e:
+        logging.error(f"[game_date] Erro inesperado ao buscar a data do jogo: {e}")
+        raise
 
 
 def scrape_game_data():
-    """Função principal para coletar os dados do jogo."""
+    """Função principal para coletar os dados do jogo em formato long."""
 
-    game_time = get_game_time()
-    game_date, game_week = get_game_date()
-    gold_red_side = get_gold_red_side()
-    gold_blue_side = get_gold_blue_side()
-    red_side_kills = get_red_side_kills()
-    blue_side_kills = get_blue_side_kills()
+    game_time = get_element_text("game_time", driver, xpath_options_dict)
+    game_date, game_week = get_game_date(driver, xpath_options_dict)
+    gold_red_side = get_element_text("team_gold_red_side", driver, xpath_options_dict)
+    gold_blue_side = get_element_text("team_gold_blue_side", driver, xpath_options_dict)
+    red_side_kills = get_element_text("team_red_kills", driver, xpath_options_dict)
+    blue_side_kills = get_element_text("team_blue_kills", driver, xpath_options_dict)
 
-    # TODO: refatorar para adicionar os headers caso não existam
-    data = pd.DataFrame(columns=['game_uid', 'game_time','game_date','game_week', 'gold_red_side', 'gold_blue_side', 'red_side_kills', 'blue_side_kills'], # cria um DataFrame com as colunas especificadas
-                        data=[[game_uid, game_time, game_date, game_week, gold_red_side, gold_blue_side, red_side_kills, blue_side_kills]]) # adiciona os dados coletados ao DataFrame
+    # Dados em formato long: duas linhas, uma para cada time
+    data = pd.DataFrame([
+        {
+            "game_uid": game_uid,
+            "game_date": game_date,
+            "game_week": game_week,
+            "game_time": game_time,
+            "team": "RED",
+            "kills": red_side_kills,
+            "gold": gold_red_side,
+        },
+        {
+            "game_uid": game_uid,
+            "game_date": game_date,
+            "game_week": game_week,
+            "game_time": game_time,
+            "team": "BLUE",
+            "kills": blue_side_kills,
+            "gold": gold_blue_side,
+        }
+    ])
 
-    data.to_csv(CSV_PATH, mode='a', header=not os.path.exists(CSV_PATH), index=False, encoding='utf-8') # escreve os dados no CSV
+    data.to_csv(CSV_PATH, mode='a', header=not os.path.exists(CSV_PATH), index=False, encoding='utf-8')
 
-    with open(CSV_PATH, 'r', encoding='utf-8') as file: # lê o arquivo CSV
+    with open(CSV_PATH, 'r', encoding='utf-8') as file:
         last_line = file.readlines()[-1].strip()
 
     logging.info(f"[DEBUG - ÚLTIMA LINHA CSV] {last_line}")
-
 
 
 scrape_game_data()

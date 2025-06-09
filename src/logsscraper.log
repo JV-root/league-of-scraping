@@ -566,3 +566,42 @@ Stacktrace:
 2025-06-06 11:17:51,465 [INFO] Get LATEST chromedriver version for google-chrome
 2025-06-06 11:17:51,555 [INFO] Driver [C:\Users\jp\.wdm\drivers\chromedriver\win64\137.0.7151.68\chromedriver-win32/chromedriver.exe] found in cache
 2025-06-06 11:18:05,917 [INFO] [DEBUG - ÚLTIMA LINHA CSV] 67862_game_1,31:12,2025-05-18,WEEK7,63.3k,52.8k,18,7
+2025-06-09 19:53:32,335 [INFO] ====== WebDriver manager ======
+2025-06-09 19:53:33,527 [INFO] Get LATEST chromedriver version for google-chrome
+2025-06-09 19:53:33,597 [INFO] Get LATEST chromedriver version for google-chrome
+2025-06-09 19:53:33,627 [INFO] Get LATEST chromedriver version for google-chrome
+2025-06-09 19:53:33,714 [INFO] WebDriver version 137.0.7151.68 selected
+2025-06-09 19:53:33,717 [INFO] Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/137.0.7151.68/win32/chromedriver-win32.zip
+2025-06-09 19:53:33,718 [INFO] About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/137.0.7151.68/win32/chromedriver-win32.zip
+2025-06-09 19:53:33,877 [INFO] Driver downloading response is 200
+2025-06-09 19:53:34,353 [INFO] Get LATEST chromedriver version for google-chrome
+2025-06-09 19:53:34,526 [INFO] Driver has been saved in cache [C:\Users\joaov\.wdm\drivers\chromedriver\win64\137.0.7151.68]
+2025-06-09 19:53:46,751 [INFO] [game_time] Valor encontrado: 31:12
+2025-06-09 19:53:46,770 [INFO] [game_date] Valor encontrado: 2025-05-18 (WEEK7)
+2025-06-09 19:53:46,792 [INFO] [team_gold_red_side] Valor encontrado: 63.3k
+2025-06-09 19:53:46,818 [INFO] [team_gold_blue_side] Valor encontrado: 52.8k
+2025-06-09 19:53:46,844 [INFO] [team_red_kills] Valor encontrado: 18
+2025-06-09 19:53:46,875 [INFO] [team_blue_kills] Valor encontrado: 7
+2025-06-09 19:53:46,886 [INFO] [DEBUG - ÚLTIMA LINHA CSV] 67862_game_1,31:12,2025-05-18,WEEK7,63.3k,52.8k,18,7
+2025-06-09 20:18:57,741 [INFO] ====== WebDriver manager ======
+2025-06-09 20:18:58,856 [INFO] Get LATEST chromedriver version for google-chrome
+2025-06-09 20:18:58,928 [INFO] Get LATEST chromedriver version for google-chrome
+2025-06-09 20:18:59,004 [INFO] Driver [C:\Users\joaov\.wdm\drivers\chromedriver\win64\137.0.7151.68\chromedriver-win32/chromedriver.exe] found in cache
+2025-06-09 20:19:10,558 [INFO] [game_time] Valor encontrado: 31:12
+2025-06-09 20:19:10,576 [INFO] [game_date] Valor encontrado: 2025-05-18 (WEEK7)
+2025-06-09 20:19:10,597 [INFO] [team_gold_red_side] Valor encontrado: 63.3k
+2025-06-09 20:19:10,622 [INFO] [team_gold_blue_side] Valor encontrado: 52.8k
+2025-06-09 20:19:10,644 [INFO] [team_red_kills] Valor encontrado: 18
+2025-06-09 20:19:10,666 [INFO] [team_blue_kills] Valor encontrado: 7
+2025-06-09 20:19:10,670 [INFO] [DEBUG - ÚLTIMA LINHA CSV] 67862_game_1,2025-05-18,WEEK7,31:12,BLUE,7,52.8k
+2025-06-09 20:20:44,940 [INFO] ====== WebDriver manager ======
+2025-06-09 20:20:46,044 [INFO] Get LATEST chromedriver version for google-chrome
+2025-06-09 20:20:46,099 [INFO] Get LATEST chromedriver version for google-chrome
+2025-06-09 20:20:46,151 [INFO] Driver [C:\Users\joaov\.wdm\drivers\chromedriver\win64\137.0.7151.68\chromedriver-win32/chromedriver.exe] found in cache
+2025-06-09 20:20:57,905 [INFO] [game_time] Valor encontrado: 31:12
+2025-06-09 20:20:57,922 [INFO] [game_date] Valor encontrado: 2025-05-18 (WEEK7)
+2025-06-09 20:20:57,939 [INFO] [team_gold_red_side] Valor encontrado: 63.3k
+2025-06-09 20:20:57,965 [INFO] [team_gold_blue_side] Valor encontrado: 52.8k
+2025-06-09 20:20:57,990 [INFO] [team_red_kills] Valor encontrado: 18
+2025-06-09 20:20:58,012 [INFO] [team_blue_kills] Valor encontrado: 7
+2025-06-09 20:20:58,016 [INFO] [DEBUG - ÚLTIMA LINHA CSV] 67862_game_1,2025-05-18,WEEK7,31:12,BLUE,7,52.8k
